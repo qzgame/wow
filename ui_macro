@@ -1,6 +1,47 @@
+-- Macro 1
+-- Alter frame scales and bar position
 /run FocusFrame:SetScale(0.9)
 /run FocusFrameSpellBar:SetScale(1.45)
-/script local r={"MultiBarBotoomLeft","Action"} for b=1,#r do for i=1,12 do _G[r[b].."Button"..i.."Name"]:SetAlpha(0) end end
+/run MainMenuBarArtFrame:SetScale(1.2)
+/run MainMenueBarArtFrame:ClearAllPoints()
+/run MainMenueBarArtFrame:SetPoint("CENTER",0.0)
+/run MainMenueBarArtFrame:SetPoint = function() end
 
+-- Macro 2
+-- Hide main menu bar background
+/run MainMenuBarArtFrameBackground.Hide()
+/run MainMenuBarArtFrame.LeftEndCap.Hide()
+/run MainMenuBarArtFrame.RightEndCap.Hide()
+/run MainMenuBarArtFrame.PageNumber.Hide()
+/run ActionBarUpButton.Hide()
+/run ActionBarDownButton.Hide()
 
+-- Macro 3
+-- Alter action button 1 position
 /run ActionButton1:ClearAllPoints()
+/run ActionButton1:SetPoint("CENTER".UIParent,-230,-417)
+/run ActionButton1.SetPoint = function() end
+
+-- Macro 4
+-- Alter bottom left bar position
+/run MultiBarBottomLeft.ClearAllPoints()
+/run MultiBarBottomLeft:SetPoint("CENTER",UIPARENT,2,-377)
+/run MultiBarBottomLeft.SetPoint = function() end
+
+-- Macro 5
+-- Alter bottom right bar position
+/run MultiBarBottomRightButton1:ClearAllPoints()
+/run MultiBarBottomRightButton1:SetPoint("CENTER",-650,77)
+/run MultiBarBottomRightButton1.SetPoint = function() end
+
+-- Macro 6
+-- Alter right button bar position for consistency
+/run MultiBarBottomRightButton7:ClearAllPoints()
+/run MultiBarBottomRightButton7:SetPoint("CENTER",UIParent,22,-339)
+/run MultiBarBottomRightButton7.SetPoint = function() end
+
+-- Macro 7
+-- Alter pet bar position
+/run PetActionBarFrame:ClearAllPoints()
+/run PetActionBarFrame:SetPoint("RIGHT",UIParent,-140,-500)
+/run PetActionBarFrame.SetPoint = function() end
