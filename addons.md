@@ -13,8 +13,8 @@ Arena frame with DR track
 ### [Details!](https://wow.curseforge.com/projects/details?gameCategorySlug=addons&projectID=61284)
 Combat meters for micro analysis
 
-## [REFlex](https://wow.curseforge.com/projects/reflex-battleground-historian?gameCategorySlug=addons&projectID=28545)
+### [REFlex](https://wow.curseforge.com/projects/reflex-battleground-historian?gameCategorySlug=addons&projectID=28545)
 Game records for macro analysis
 
-## [Easy Frames](https://wow.curseforge.com/projects/easy-frames)
+### [Easy Frames](https://wow.curseforge.com/projects/easy-frames)
 Show class on unit frame
